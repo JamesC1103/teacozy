@@ -13,7 +13,7 @@ a {
   color: seashell;
 }
 
-h2, h4 {
+h2, h3, h4 {
   margin: 0;
   padding: 10px;
   display: block;
@@ -131,4 +131,15 @@ nav span {
   justify-content: center;
   padding: 10px;
   margin: 5px 20px;
+}
+
+/* Footer */
+
+.contact {
+  height: 200px;
+}
+
+footer {
+  text-align: left;
+  padding-left: 20px;
 }
