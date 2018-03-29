@@ -6,12 +6,19 @@ body {
   font-size: 22px;
   color: seashell;
   background-color: black;
-  opacity: 0.9;
   text-align: center;
 }
 
 a {
   color: seashell;
+}
+
+h2, h4 {
+  margin: 0;
+  padding: 10px;
+  display: block;
+  background-color: black;
+  width: 1200px;
 }
 
 /* Header */
@@ -71,10 +78,25 @@ nav span {
   justify-content: center;
 }
 
-h2, h4 {
-  margin: 0;
-  padding: 10px;
+/* Tea Section */
+
+#tea {
+  height: 700px;
+  width: 1000px;
+  margin: auto;
+  padding-top: 70px;
+}
+
+.item img {
+  height: 200px;
+  width: 300px;
+  margin: 10px;
   display: block;
-  background-color: black;
-  width: 1200px;
+}
+
+.item span {
+  padding: 5px;
+  font-weight: bold;
+  text-align: center;
+  display: block;
 }
