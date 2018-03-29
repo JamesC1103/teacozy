@@ -15,6 +15,7 @@ a {
 }
 
 /* Header */
+
 .flex-container {
   display: flex;
   justify-content: center;
@@ -27,6 +28,7 @@ header {
   position: fixed;
   z-index: 1;
   height: 69px;
+  background-color: black;
   border-bottom: 1px solid seashell;
 }
 
@@ -44,4 +46,35 @@ nav span {
   display: inline-block;
   padding: 20px 10px;
   text-decoration: underline;
+}
+
+/* Main Content Section */
+
+.main {
+  padding-top: 69px;
+  margin: auto;
+  opacity: 0.9;
+  width: 1200px;
+}
+
+/* Our Mission Section */
+
+#mission {
+  height: 700px;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  padding-top: 70px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h2, h4 {
+  margin: 0;
+  padding: 10px;
+  display: block;
+  background-color: black;
+  width: 1200px;
 }
