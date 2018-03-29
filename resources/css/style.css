@@ -17,17 +17,15 @@ h2, h4 {
   margin: 0;
   padding: 10px;
   display: block;
-  background-color: black;
-  width: 1200px;
 }
-
-/* Header */
 
 .flex-container {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
 }
+
+/* Header */
 
 header {
   width: 100%;
@@ -72,6 +70,12 @@ nav span {
   padding-top: 70px;
 }
 
+#mission .content {
+  background-color: black;
+  width: 100%;
+  margin: auto;
+}
+
 .content {
   display: flex;
   flex-direction: column;
@@ -99,4 +103,32 @@ nav span {
   font-weight: bold;
   text-align: center;
   display: block;
+}
+
+/* Location Section */
+
+#locations {
+  height: 500px;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  padding-top: 70px;
+}
+
+#locations .flex-container {
+  width: 1100px;
+  margin: auto;
+}
+
+.flex-container.locations {
+  padding-top: 5px;
+}
+
+.location {
+  opacity: 1;
+  background-color: black;
+  flex-basis: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+  margin: 5px 20px;
 }
